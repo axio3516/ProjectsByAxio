@@ -1,0 +1,37 @@
+body {
+  font-family: tahoma;
+/* Sets the font family of the web page. */
+  text-align: center;
+/* Sets the alignment of the text. */
+  margin-top: 20px;
+/* Sets the top margin of the web page. */
+  background-color: #ADD8E6;
+/* Sets a background color to the web page. Coral! */ 
+}
+
+canvas {
+/* Sets the style for the canvas element. */
+  border: 2px solid black;
+/* Sets the black border around the canvas. */
+  background-color: white;
+/* Sets the white color of the canvas backgroud. */
+  cursor: crosshair;
+/* Sets the cursor to a crosshair when hovering over the canvas. */
+} 
+
+#countdown {
+  font-size: 24px;
+/* Sets the font size of the countdown display. */
+  font-family: tahoma;
+/* Sets the font family of the countdown display. */
+  display: none;
+
+  p {
+    background-color: white;
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    text-align: center;
+  }
+}
