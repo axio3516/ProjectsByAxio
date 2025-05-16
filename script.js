@@ -12,7 +12,7 @@ countdownDisplay.id = 'countdown';
 document.body.appendChild(countdownDisplay);
 
 function startCountdown() {
-  countdown = 1;
+  countdown = 600;
   countdownDisplay.style.display = 'block';
   updateCountdownDisplay();
 
