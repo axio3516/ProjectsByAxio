@@ -20,7 +20,7 @@ function startCountdown() {
     countdown--;
     updateCountdownDisplay();
 
-    if (countdown <= 600) {
+    if (countdown <= 0) {
       clearInterval(countdownInterval);
       canDraw = true;
       playRing();
